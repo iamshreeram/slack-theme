@@ -11,7 +11,7 @@ Setting theme of slack
 * Restart your `slack` 
 * If you don't have `wget`,
   * Copy the content of `https://raw.githubusercontent.com/iamshreeram/slack-theme/master/customizer.js` 
-  * Paste it to the last line of `\Resources\app.asar.unpacked\src\static\ssb-interop.js` 
+  * Paste it to the last line of `/Resources/app.asar.unpacked/src/static/ssb-interop.js` 
 
 
 ## For Windows or Linux users, 
