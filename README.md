@@ -7,7 +7,7 @@ Setting theme of slack
 
 * `cd` into `/Applications/Slack.app/Contents/` directory
 * If you have `wget` installed in your machine, run below command -
-  `wget -q -O - https://raw.githubusercontent.com/iamshreeram/slack-theme/master/customizer.js >> Resources\app.asar.unpacked\src\static\ssb-interop.js`
+  `wget -q -O - https://raw.githubusercontent.com/iamshreeram/slack-theme/master/customizer.js >> /Resources/app.asar.unpacked/src/static/ssb-interop.js`
 * Restart your `slack` 
 * If you don't have `wget`,
   * Copy the content of `https://raw.githubusercontent.com/iamshreeram/slack-theme/master/customizer.js` 
@@ -19,3 +19,6 @@ Setting theme of slack
 * Debian based Linux Users, Find: `/usr/lib/slack/` (Debian-based)
 * Windows: `%homepath%\AppData\Local\slack\`
 * We are working on updating further steps. Stay tuned. 
+
+## Note
+* This script works only for SLACK Version 3.x.x 
